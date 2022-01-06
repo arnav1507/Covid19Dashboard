@@ -1,0 +1,31 @@
+.cardMap {
+  width: 18rem;
+  margin-left: 25px;
+}
+.card-title {
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+}
+.count {
+  font-size: 20px;
+}
+.cardImg {
+  height: 50px;
+}
+.cardCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardIcon {
+  margin-right: 10px;
+}
+@media only screen and (max-width: 800px) {
+  .cardCont {
+    flex-direction: column;
+  }
+  .cardMap {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+}
